@@ -45,66 +45,66 @@ int main() {
 	if (f == 'p') {
 		if (p == 1) {
 			printf("YES");
-			return 0;
+			exit(0);
 		}
 		else {
 			printf("NO, but this pieces can: %s", pieces);
-			return 0;
+			exit(0);
 		}
 	}
 	else {
 		if (f == 'r') {
 			if (r == 1) {
 				printf("YES");
-				return 0;
+				exit(0);
 			}
 			else {
 				printf("NO, but this pieces can: %s", pieces);
-				return 0;
+				exit(0);
 			}
 		}
 		else {
 			if (f == 'b') {
 				if (b == 1) {
 					printf("YES");
-					return 0;
+					exit(0);
 				}
 				else {
 					printf("NO, but this pieces can: %s", pieces);
-					return 0;
+					exit(0);
 				}
 			}
 			else {
 				if (f == 'n') {
 					if (n == 1) {
 						printf("YES");
-						return 0;
+						exit(0);
 					}
 					else {
 						printf("NO, but this pieces can: %s", pieces);
-						return 0;
+						exit(0);
 					}
 				}
 				else {
 					if (f == 'q') {
 						if (q == 1) {
 							printf("YES");
-							return 0;
+							exit(0);
 						}
 						else {
 							printf("NO, but this pieces can: %s", pieces);
-							return 0;
+							exit(0);
 						}
 					}
 					else {
 						if (f == 'k') {
 							if (k == 1) {
 								printf("YES");
-								return 0;
+								exit(0);
 							}
 							else {
 								printf("NO, but this pieces can: %s", pieces);
-								return 0;
+								exit(0);
 							}
 						}
 					}
