@@ -18,7 +18,10 @@ int main() {
 				printf("The circles are touching");
 			if (r1 + r2 < l)
 				printf("The circles are don't intersect");
-			if (r1 + r2 > l)
-				printf("The circles are intersect");
+			if (l + r1 < r2 || l + r2 < r1)
+				printf("One circle in another");
+			else
+				if (r1 + r2 > l)
+					printf("The circles are intersect");
 }
 //can't figure out, how to one circle in another
