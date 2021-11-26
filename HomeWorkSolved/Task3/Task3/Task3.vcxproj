@@ -21,11 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-<<<<<<< Updated upstream
-    <ProjectGuid>{0982adc9-f558-4ff3-9ae9-3526f0fba08d}</ProjectGuid>
-=======
-    <ProjectGuid>{06d1f2e6-123d-4910-861c-2531ef39bcd8}</ProjectGuid>
->>>>>>> Stashed changes
+    <ProjectGuid>{019ac321-8964-4bd3-b738-707e6dbef82c}</ProjectGuid>
     <RootNamespace>Task3</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -143,11 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
-    <ClCompile Include="Task3.c" />
-=======
-    <ClCompile Include="main.c" />
->>>>>>> Stashed changes
+    <ClCompile Include="..\..\..\..\..\..\Desktop\main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

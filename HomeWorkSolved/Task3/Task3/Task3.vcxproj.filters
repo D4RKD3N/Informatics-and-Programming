@@ -15,11 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< Updated upstream
-    <ClCompile Include="Task3.c">
-=======
-    <ClCompile Include="main.c">
->>>>>>> Stashed changes
+    <ClCompile Include="..\..\..\..\..\..\Desktop\main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
